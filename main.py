@@ -12,7 +12,7 @@ if __name__ == "__main__":
     taches = charger_taches()
 
     while True:
-        afficher_menu()
+        afficher_menu(taches)
         choix = input("Entrez votre choix : ")
 
         if choix == "1":
